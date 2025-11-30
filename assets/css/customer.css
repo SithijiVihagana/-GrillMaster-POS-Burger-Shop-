@@ -1,0 +1,105 @@
+.dark-navbar {
+    background-color: #f8c500;
+    padding: 12px ;
+}
+
+.dark-brand {
+    font-size: 28px;
+    color: #f8c500 ;
+}
+
+body {
+     background-color: #000000  !important;
+     color:#f0f0f0 ;
+     font-family: "Inter", Arial, sans-serif;
+}
+
+.navbar-top {
+     background-color: #f8c500 !important;
+ }
+
+ .navbar-brand {
+     font-size: 28px;
+     color:#000000  !important;
+     /* Black text on yellow */
+     font-weight: 700;
+ }
+
+ 
+ .btn-back-pos {
+     color:#000000  !important;
+     border-color: #000000 !important;
+     font-weight: 600;
+ }
+
+ .btn-back-pos:hover {
+     background-color: #000000;;
+     color:  #f8c500 !important;
+ }
+
+ .page-title {
+     color: #f0f0f0;
+     margin-bottom: 1.5rem;
+ }
+
+ 
+ .dark-card {
+     background-color: #111111; ;
+     border-radius: 8px;
+ }
+
+ 
+ .form-label {
+     color:  #f0f0f0;
+ }
+
+ .form-control {
+     background-color: #000000  !important;
+     color:  #f0f0f0 !important;
+     border: 1px solid #333 !important;
+     /* Subtle initial border */
+     border-radius: 6px;
+ }
+
+ .form-control:focus {
+     border-color:#f8c500 !important;
+     box-shadow: 0 0 0 0.25rem rgba(248, 197, 0, 0.4) !important;
+     /* Yellow glow */
+     background-color:#000000 !important;
+     color:#f0f0f0 !important;
+     outline: none !important;
+ }
+
+ 
+ .btn-warning {
+     background-color: #f8c500;
+     color:#000000  !important;
+     border-color: #f8c500;
+     font-weight: 600;
+ }
+
+ 
+ .customer-record {
+     padding: 1rem 0;
+     border-bottom: 1px solid #1a1a1a;
+     /* Very subtle dark gray separator */
+     transition: background-color 0.2s ease;
+ }
+
+ .customer-record:hover {
+     background-color: #080808;
+     
+ }
+
+ .customer-record:last-child {
+     border-bottom: none;
+    
+ }
+ .customer-name {
+     font-weight: 600;
+     color: #f8c500;
+     font-size: 1.1rem;
+ }
+.customer-phone {
+     color: #ccc;
+ }
