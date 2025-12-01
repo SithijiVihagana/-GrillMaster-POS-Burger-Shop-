@@ -43,7 +43,7 @@ body {
  }
 
  
- .dark-card {
+ .pruduct_card {
      background-color: #111111; ;
      border-radius: 8px;
  }
@@ -79,19 +79,32 @@ body {
  }
 
  
- .customer-record {
+ .product-record {
      padding: 1rem 0;
      border-bottom: 1px solid #1a1a1a;
      /* Very subtle dark gray separator */
      transition: background-color 0.2s ease;
  }
 
- .customer-record:hover {
+ .product-record:hover {
      background-color: #080808;
      
  }
 
- .customer-record:last-child {
+ .product-record:last-child {
      border-bottom: none;
     
  }
+
+ #prod_cat{
+    background-color: #000000  !important;
+    color:  #f0f0f0 !important;
+    border-color:#f8c500 !important;
+     box-shadow: 0 0 0 0.25rem rgba(248, 197, 0, 0.4) !important;
+     /* Yellow glow */
+     background-color:#000000 !important;
+     color:#f0f0f0 !important;
+     outline: none !important;
+    
+ }
+

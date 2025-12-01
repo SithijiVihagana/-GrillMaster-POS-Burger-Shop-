@@ -65,7 +65,6 @@ if (document.getElementById("customerForm")) {
   renderCustomers();
 }
 
-// helper to populate select on POS
 function populateCustomerSelect(selectId = "selectCustomer") {
   const sel = document.getElementById(selectId);
   if (!sel) return;
